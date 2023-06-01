@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  mvc,
+  csharp,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +49,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -89,14 +84,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -109,8 +96,16 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "mvc",
+    icon: mvc,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "csharp",
+    icon: csharp,
   },
 ];
 

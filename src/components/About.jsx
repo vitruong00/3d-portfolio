@@ -37,10 +37,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled software developer with experience in Typescript and
-        Javascript, and expertise in frameworks like React, Node.js, and
-        Three.js. I am a quick learner and collaborate closely with clients to
-        create efficient, scalable, and use-friendly solutions
+        My name is Vi Truong and I graduated from Texas A&M University with a
+        Computer Science degree. I have strong experiences with Javascipt and
+        Typescript, and expertise in React.js, Redux, .NET and ASP.NET MVC
+        framework. I felt so much power and encouragement whenever I could put
+        my idea into building software. I really enjoy problem solving, tackling
+        challenging problems, and applying logical thinking into building a real
+        product.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
