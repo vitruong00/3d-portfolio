@@ -6,6 +6,14 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import pcs from "./pcs.jpeg";
+import tamu from "./tamu.png";
+import globalSearch from "./GlobalSearch.png";
+import music from "./music1.png";
+import shirt from "./shirt.png";
+import pdf from "./pdf.svg";
+import fileIcon from "./fileIcon.svg";
+import deepLearning from "./deep.jpeg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -65,4 +73,12 @@ export {
   python,
   csharp,
   mvc,
+  pcs,
+  tamu,
+  globalSearch,
+  music,
+  shirt,
+  pdf,
+  fileIcon,
+  deepLearning,
 };

@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -10,22 +8,18 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   python,
   mvc,
   csharp,
+  pcs,
+  tamu,
+  globalSearch,
+  music,
+  shirt,
+  deepLearning,
 } from "../assets";
 
 export const navLinks = [
@@ -111,150 +105,166 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    title: "Software Engineer I",
+    company_name: "PCS Software Inc",
+    icon: pcs,
+    iconBg: "white",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Full-stack engineer in a web-based application Prime Express which help to reduce deadhead mileage and maximizes network savings and profitability for shippers and their private fleets.",
+      "Technologies used: C#, .Net and ASP.Net MVC Framework, React.js, Typescript, HTML/CSS, PostgreSQL.",
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Software Engineer Intern",
+    company_name: "PCS Software Inc",
+    icon: pcs,
+    iconBg: "white",
+    date: "May 2022 - Dec 2022",
+    points: [
+      "Developed an end-to-end Global Search engine for trucks, trailers, drivers, and loads in a web-based application Prime Express.",
+      "Wrote unit tests to ensure coding quality of frontend using Jest and React Testing Library",
+      "Implemented an advanced, dynamic, and real-time map to show routes and estimating time arrivals for any truck, driver, trailer, or load using Here API.",
+      "Built and redesigned a user interface for expanding/collapsing functionality across multiple items.",
+      "Resolved bugs on existing components in frontend.",
+      "Technologies used: C#, .Net and ASP.Net MVC Framework to implement REST API, and React.js, Typescript, Fluent UI, CSS to develop, refactor, and fix frontend.",
+    ],
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Teacher Assistant",
+    company_name: "Texas A&M University",
+    icon: tamu,
+    iconBg: "white",
+    date: "Aug 2021 - May 2022",
+    points: [
+      "Collaborated with other teaching assistants to assist 200+ students with technical skills and projects in Python language.",
+      "Conducted weekly office hours and created study guides to help students in all materials relating to engineering labs and lectures.",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Global Search",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Allow users to search for drivers, trucks, trailers, and loads across the entire application. The search will provide the real-time updates of the assets including routes, status, ETA, etc.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "c#",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: ".net",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html/css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: globalSearch,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Music Collaboration App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allow users to make music together in a quick, real-time, and simple way.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
         color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "white",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: music,
+    source_code_link: "https://github.com/harmonyhub22/hhub",
   },
   {
-    name: "Trip Guide",
+    name: "Clothes Picker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that utilize the power of AI to help users customize their desired clothes.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openAI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "framer motion",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shirt,
+    source_code_link: "https://github.com/vitruong00/3d-clothing-web",
+  },
+  {
+    name: "Seq2Seq Model for Characters Prediction",
+    description:
+      "Utilizing Machine and Deep Learning to build a LSTM model to predict sequence of characters.",
+    tags: [
+      {
+        name: "machine learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "deep learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "lstm",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nlp",
+        color: "green-text-gradient",
+      },
+      {
+        name: "seqtoseq",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deepLearning,
+    source_code_link:
+      "https://drive.google.com/file/d/1SP6PaxoqqtDaqG7S4c_mF9Y2hRwkb9PC/view?usp=sharing",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
