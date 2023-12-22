@@ -28,29 +28,27 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <>
+    <motion.div className="flex flex-col justify-center items-center">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Introduction</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Overview.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         My name is Vi Truong and I graduated from Texas A&M University with a
-        Computer Science degree. I have strong experiences with Javascipt and
-        Typescript, and expertise in React.js, Redux, .NET and ASP.NET MVC
-        framework. I felt so much power and encouragement whenever I could put
-        my idea into building software. I really enjoy problem solving, tackling
-        challenging problems, and applying logical thinking into building a real
-        product.
+        bachelor of science in Computer Science. I have a strong experience in
+        building web applications using React.js, Typescript, .NET and ASP.NET
+        Core 8.0 framework. With a passion in problem solving and tackling
+        challenging problems, I feel so much power and encouragement whenever I
+        can put my ideas into building softwares. I am a very open-minded,
+        accountable, and collaborative person who is always ready to learn new
+        things and willing to take new challenges. I strongly believe that
+        networking and collaboration are the pathway to unlock new
+        opportunities, overcome new challenges, and gain new insights.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
-    </>
+    </motion.div>
   );
 };
 

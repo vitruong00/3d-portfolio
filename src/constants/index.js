@@ -111,10 +111,12 @@ const experiences = [
     iconBg: "white",
     date: "Jan 2023 - Present",
     points: [
-      "Full-stack engineer in a web-based application Prime Express which help to reduce deadhead mileage and maximizes network savings and profitability for shippers and their private fleets.",
-      "Developed an end-to-end Driver Schedule feature, providing users the abilities of creating and managing the schedules for all existing drivers.",
-      "Helped to build micro-frontends with module federation to speed up and scale the web development process.",
-      "Technologies used: C#, .Net and ASP.Net MVC Framework, React.js, Typescript, HTML/CSS, PostgreSQL.",
+      "Full-stack engineer in web-based applications.",
+      "Developed an end-to-end Driver Schedule feature, providing users the ability to create and manage schedules for drivers across their entire fleet",
+      "Utilized Redux Toolkit for implementing Redux-Thunk middleware and writing other Redux logic.",
+      "Built reusable React components and published them to NPM registry",
+      "Helped build micro-frontends with module federation to speed up and scale the web development process.",
+      "Helped to build authentication and authorization system by integrating Microsoft Authentication Library (MSAL) with Azure AD B2C.",
     ],
   },
   {
