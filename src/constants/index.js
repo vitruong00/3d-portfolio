@@ -1,26 +1,4 @@
-import {
-  backend,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  git,
-  figma,
-  threejs,
-  python,
-  mvc,
-  csharp,
-  pcs,
-  tamu,
-  globalSearch,
-  music,
-  shirt,
-  deepLearning,
-} from "../assets";
+import { pcs, tamu, globalSearch, music, shirt, deepLearning } from "../assets";
 
 export const navLinks = [
   {
@@ -34,72 +12,6 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Frontend Developer",
-    icon: web,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "mvc",
-    icon: mvc,
-  },
-  {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "csharp",
-    icon: csharp,
   },
 ];
 
@@ -271,4 +183,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { experiences, projects };
